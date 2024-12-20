@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    padding: 29px 100px;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 4px 4px 0px #00000040;
+}
+.lang {
+    cursor: pointer;
+}
+.nav {
+    display: flex;
+    grid-gap: 150px;
+    cursor: pointer;
+}
+
+.header-btn {
+    padding: 20px 40px;
+    cursor: pointer;
+    border: none;
+    background-color: #208AAE;
+    font-weight: 600;
+    border-radius: 22px;
+    color: white;
+}

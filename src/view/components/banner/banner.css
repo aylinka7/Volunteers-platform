@@ -1,0 +1,34 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 116vh;
+    background-image: url('../../../assets/Banner.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.texts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8vh;
+}
+
+.text {
+    font-size: 54px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.banner-btn {
+    margin-top: 14px;
+    border: none;
+    background: #208AAE;
+    color: #fff;
+    border-radius: 16px;
+    padding: 10px 40px;
+    font-weight: 600;
+}

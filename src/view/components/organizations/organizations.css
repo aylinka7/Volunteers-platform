@@ -1,0 +1,61 @@
+.org {
+    margin-top: 90px;
+}
+.carusel {
+    margin-top: 20px;
+    /*display: flex;*/
+    /*padding: 0 150px;*/
+    /*justify-content: space-between;*/
+    /*max-width: 1000px;*/
+    padding: 0 150px;
+    position: relative;
+}
+.carusel-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.carusel-item {
+    display: none;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: #208AAE;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+.prev {
+    left: 100px;
+    border-radius: 3px 0 0 3px;
+}
+.next {
+    right: 100px;
+    border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+    background-color: #0D2149;
+}
+.dotbar {
+
+}
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+    background-color: #717171;
+}
