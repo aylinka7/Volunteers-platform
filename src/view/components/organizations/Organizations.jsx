@@ -25,6 +25,10 @@ export const Organizations = () => {
         });
     };
 
+    const goToSlide = (index) => {
+        setSlideIndex(index);
+    };
+
     return (
         <div className="org">
             <div className="bold">Организации</div>
@@ -49,6 +53,15 @@ export const Organizations = () => {
                 </div>
                 <a className="prev" onClick={() => plusSlides(-1)}>&#10094;</a>
                 <a className="next" onClick={() => plusSlides(1)}>&#10095;</a>
+            </div>
+            <div className="dots">
+                {slides.map((_, index) => (
+                    <span
+                        key={index}
+                        className={`dot ${index === slideIndex ? 'active' : ''}`}
+                        onClick={() => goToSlide(index)}
+                    ></span>
+                ))}
             </div>
         </div>
     );

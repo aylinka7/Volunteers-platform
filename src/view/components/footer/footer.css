@@ -1,0 +1,48 @@
+.footer {
+    background: #0D2149;
+    margin-top: 86px;
+    padding-top: 80px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 23px;
+}
+
+.line {
+    display: flex;
+    align-items: center;
+    grid-gap: 200px;
+}
+
+.menu {
+    display: flex;
+    grid-gap: 160px;
+    margin-top: 30px;
+}
+
+.menu > p {
+    color: #fff;
+    font-weight: 500;
+}
+
+.menu > p:hover {
+    cursor: pointer;
+}
+
+.button-footer {
+    background: #208AAE;
+    color: #fff;
+    border: none;
+    padding: 20px 40px;
+    border-radius: 22px;
+    font-weight: 600;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.copyrights {
+    color: #fff;
+    font-weight: 300;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 70px;
+}

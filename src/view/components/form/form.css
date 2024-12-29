@@ -19,7 +19,29 @@
     width: 424px;
     height: 57px;
     background: #F9EBE0;
+    font-size: 17px;
+    /*padding-left: 10px;*/
 }
+
+.input-thin::placeholder {
+    font-size: 17px;
+    opacity: 70%;
+    padding: 10px 10px;
+}
+
+.input-thin > option {
+    font-size: 14px;
+}
+
+.select {
+    color: gray;
+    opacity: 70%;
+}
+
+.select:not(:has(option[value=""]:checked)) {
+    color: #0D2149;
+}
+
 .input-thick {
     width: 870px;
     height: 154px;
