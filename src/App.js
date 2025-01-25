@@ -1,18 +1,18 @@
-import {Header} from "./view/components/header/Header";
-import {Banner} from "./view/components/banner/Banner";
-import {Form} from "./view/components/form/Form";
-import {Organizations} from "./view/components/organizations/Organizations";
-import {Footer} from "./view/components/footer/Footer";
+import {Login} from "./view/pages/login/Login";
+import {Main} from "./view/pages/Main";
+import {Helplist} from "./view/pages/helplist/Helplist";
+import {Profile} from "./view/pages/profile/Profile";
+import {ProfileManager} from "./view/pages/profileManager/profileManager";
 
 
 function App() {
   return (
     <div className="App">
-      <Header/>
-      <Banner/>
-      <Form/>
-      <Organizations/>
-      <Footer/>
+        {/*<Main/>*/}
+        {/*<Login/>*/}
+        {/*<Helplist/>*/}
+        {/*<Profile/>*/}
+        <ProfileManager/>
     </div>
   );
 }

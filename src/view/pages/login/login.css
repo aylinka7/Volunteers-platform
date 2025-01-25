@@ -1,0 +1,48 @@
+.login {
+    display: flex;
+}
+.left {
+    background-color: #0D2149;
+    height: 100vh;
+    width: 50vw;
+}
+.left > h1 {
+    color: #FFFFFF;
+}
+.banner > img {
+    max-width: 675px;
+}
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 130px;
+    text-align: center;
+}
+
+.right {
+    width: 50vw;
+    justify-content: center;
+}
+
+.logform {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.label-log {
+    font-size: 18px;
+    font-weight: 500;
+}
+.field-log {
+    margin-bottom: 20px;
+}
+.input-log {
+    border-radius: 10px;
+    border: 1px solid #0D2149;
+    width: 503px;
+    height: 57px;
+    background: #F9EBE0;
+    font-size: 17px;
+}

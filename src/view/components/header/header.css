@@ -13,6 +13,9 @@
     grid-gap: 150px;
     cursor: pointer;
 }
+.nav > p:hover {
+    font-weight: 600;
+}
 
 .header-btn {
     padding: 20px 40px;

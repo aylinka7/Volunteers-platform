@@ -1,0 +1,10 @@
+.container-manager {
+    display: flex;
+    justify-content: space-between;
+}
+
+.manager {
+    margin-top: 100px;
+    margin-right: 120px;
+    text-align: right;
+}

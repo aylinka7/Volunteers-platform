@@ -1,0 +1,28 @@
+.helplist-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.h1-helplist {
+    font-size: 40px;
+    font-weight: 800;
+}
+.block-helplist {
+    border: 1px #0D2149 solid;
+    border-radius: 20px;
+    width: 1200px;
+    max-height: 138px;
+    padding: 20px 30px;
+    margin-bottom: 20px;
+}
+.title-helplist {
+    text-transform: uppercase;
+    font-size: 26px;
+    font-weight: 600;
+    /*margin: 0 0;*/
+}
+.descr-helplist {
+    font-size: 18px;
+    margin-top: 10px;
+}
